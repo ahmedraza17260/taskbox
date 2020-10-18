@@ -237,7 +237,8 @@ code {
    font-style: 400;
    color: #333;
    font-size: 16px;
-   background-color: #26c6da;
+   background-color: turquoise;
+   /* background-color: #26c6da; */
  }
  h1,
  h2,
@@ -978,7 +979,8 @@ code {
    background: white;
  }
  .page.lists-show nav {
-   background: #d3edf4;
+   background: lightcyan;
+   /* background: #d3edf4; */
    padding: 1.5rem 1.25rem;
    text-align: center;
  }
