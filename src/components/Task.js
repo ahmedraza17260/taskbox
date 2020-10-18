@@ -31,8 +31,16 @@ export default function Task({
           value={title}
           readOnly={true}
           placeholder="Input title"
-          style={{ background: "red" }}
+          style={{ textOverflow: "ellipsis" }}
         />
+
+        {/* <input
+          type="text"
+          value={title}
+          readOnly={true}
+          placeholder="Input title"
+          style={{ background: "red" }}
+        /> */}
       </div>
 
       <div className="actions" onClick={(event) => event.stopPropagation()}>
